@@ -24,7 +24,7 @@
                 pageHTML += `
                 <b><u>${k}</u><b>
                 <br>
-                    ${byTier[k].map(t => `<a target="_blank" href="https://taskman.rs/admin/resources/tasks/${t.id}/edit">${t.hash_id} - ${t.description}</a>`).join("<br>")}
+                    ${byTier[k].map(t => `<a target="_blank" href="https://taskman.rs/admin/resources/tasks/${t.id}/edit">${t.hash_id} - ${t.title}</a>`).join("<br>")}
                 <br>
                 <hr>
                 `;
